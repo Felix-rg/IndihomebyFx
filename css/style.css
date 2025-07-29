@@ -1,0 +1,49 @@
+.slider h3,
+.slider h5 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.brand-logo {
+    align-content: center;
+}
+
+.tombolSemuaPaket {
+    border-radius: 99px; 
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white; 
+    color: red; 
+    border: 1px solid red;
+    transition: 200ms;
+}
+.tombolCekOdp {
+    border-radius: 99px; 
+    font-size: 15px;
+    font-weight: bold;
+    background-color: red; 
+    color: white; 
+    transition: 200ms;
+}
+
+.tombolSemuaPaket:hover {
+    background-color: red;
+    color: white;
+}
+.tombolCekOdp:hover {
+    background-color: white;
+    color: red;
+}
+
+.logo{
+height: 60px;
+width: auto;
+}
+
+.sdank, ol, li {
+    font-size: 15px;
+}
+
+.img_icon {
+    height: 55px;
+    width: auto;
+}
