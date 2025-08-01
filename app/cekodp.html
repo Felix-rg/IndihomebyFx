@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--MAPS-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import FontAwesome Icon Fontr-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!-- My CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/cekOdp.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Indihome Purwokerto</title>
+    </head>
+    <body>
+    <!-- navbar -->
+            <div class="navbar-fixed">
+                 <!-- Dropdown Trigger -->
+                 
+                 <nav class="red accent-4">
+                     <div class="container">
+                        <div class="nav-wrapper">
+                            <a href="#home" class="brand-logo"><img class="logo" src="img/IndiHome-Logo.png" alt=""></a>
+                            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                            <ul class="right hide-on-med-and-down">
+                                <li><a href="index.html#judul-paket">Berlangganan</a></li>
+                                <li><a href="cekodp.html">Cek Odp</a></li>
+                                <li><a href="index.html#benefit">Add-on</a></li>
+                                <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Paket Indihome</a></li>
+                                <li><a href="index.html#faq">Layanan Bantuan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="paketinternet1.html#judul-paket">Paket Internet1</a></li>
+                    <li><a href="paketinternet2.html#judul-paket">Paket Internet2</a></li>
+                    <li><a href="paketinternet3.html#judul-paket">Paket Internet3</a></li>
+                    <li><a href="allpaket.html#judul-paket">All Paket</a></li>
+                </ul>
+                <ul id='dropdown2' class='dropdown-content'>
+                    <li><a href="paketinternet1.html#judul-paket">Paket Internet1</a></li>
+                    <li><a href="paketinternet2.html#judul-paket">Paket Internet2</a></li>
+                    <li><a href="paketinternet3.html#judul-paket">Paket Internet3</a></li>
+                    <li><a href="allpaket.html#judul-paket">All Paket</a></li>
+                </ul>
+    <!--SIDENAV-->
+            <ul class="sidenav" id="mobile-nav">
+                <a href="index.html" class="brand-logo"><img class="logo center" src="img/Indihome-Logo-Red.png" alt=""></a>
+                <li><a href="index.html#judul-paket">Berlangganan</a></li>
+                <li><a href="cekodp.html">Cek Odp</a></li>
+                <li><a href="index.html#benefit">Add-on</a></li>
+                <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Paket Indihome</a></li>
+                <li><a href="index.html#faq">Layanan Bantuan</a></li>
+            </ul>
+
+            <!--Peraturan Sebelum Melakukan cek ODP!-->
+            <section id="regulation" class="regulation">
+            <div class="container">
+                <div class="row">
+                    <b><h4 class="center grey-text text-darken-1 ">Sebelum Melakukan Cek ODP!</h4></b>
+                    <h5 class="center grey-text text-darken-1">Harap Baca Ketentuan terlebih dahulu</h5>
+                    <div class="col light">
+                        <ol>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, distinctio laborum. Repellat saepe ducimus repudiandae asperiores, ipsum at libero in beatae neque assumenda repellendus optio cumque, tempore error reprehenderit harum.</li><br>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro architecto reprehenderit non eos aperiam cupiditate a exercitationem ducimus dolorum sint ea assumenda laudantium distinctio vero laboriosam voluptate ullam, sed beatae!</li><br>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt consequatur, iste iure pariatur voluptates dolorem, facere sunt quod laudantium laboriosam vel doloremque neque ipsa ipsam consectetur? Ullam, cumque repellendus.</li><br>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eligendi odio sunt officiis id vero temporibus debitis explicabo illo aspernatur expedita, sit porro cupiditate veniam natus voluptates. Ex, repellat possimus!</li><br>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis delectus, repellendus impedit quasi voluptate eveniet? Pariatur blanditiis veritatis illo, fugiat beatae consectetur quasi voluptates? Culpa, a id! Delectus harum ut, molestiae corporis dolorem sequi, aspernatur quod sed adipisci qui distinctio minus totam perferendis dignissimos obcaecati. Veritatis voluptatibus quae officia asperiores ipsam incidunt cupiditate. Dolore odio maxime, dolorem ut illum corrupti laborum, doloremque enim magnam vero cumque molestias sunt, consequatur similique minus quas at rerum mollitia cum iure ducimus porro! Aspernatur nisi suscipit molestias architecto corrupti optio magni id iure dolor possimus, ex alias dolorum animi libero eaque, temporibus aut sapiente.</li><br>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta libero unde inventore dolor possimus accusamus, repellendus voluptas pariatur nam.</li><br>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio perspiciatis eligendi vero assumenda! Perspiciatis accusamus voluptate, obcaecati numquam aspernatur atque?</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--GARIS-->
+        <section id="garis" class="garis" style="margin-top: 30px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col m6 s12 right">
+                        <div class="progress">
+                            <div class="determinate red lighten-8" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <br>
+            
+            <!--FORM CEK ODP-->
+            <section class="formOdp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col m12 s12">
+                            <div class="card-panel">
+                                <h3 class="grey-text text-darken-1 center" style="margin-bottom: 50px;">Isi Form untuk Cek ODP!</h3>
+                                <div id="map" class="center"></div>
+                                <form action="" id="lokasiForm">
+                                    <div class="input-field">
+                                        <input type="text" name="name" id="name" required class="validate">
+                                        <label for="name">Name</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="email" name="email" id="email" required class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" name="phone" id="phone">
+                                        <label for="phone">Phone Number</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input placeholder="latitude" type="text" id="latitude" readonly></input>
+                                        <label for="latitude">latitude</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input placeholder="longitude" type="text" id="longitude" readonly></input>
+                                        <label for="longitude">longitude</label>
+                                    </div>
+                                    <button type="submit" class="btn waves-effect waves-light red accent-4">SEND</button>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+
+            
+
+
+
+
+
+
+        <!--FAQ WIFI-->
+        <section class="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col m12 s12">
+                        <span class="card-title center"><h4 class="grey-text text-darken-1">FAQ</h4></span><br>
+                        <ul class="collapsible popout">
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">keyboard_arrow_up</i>Apa itu Wifi Indihome?</div>
+                                <div class="collapsible-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim modi quod, officia consequuntur dolorum sunt doloremque dignissimos corporis totam esse. Illo ipsum consequatur quos nam modi. Qui placeat quos eligendi similique tempore quam aliquid numquam ea repellendus atque! Quam ratione quae ipsam dolore error natus earum est esse incidunt adipisci necessitatibus vero, aliquam quod nihil consectetur magni. Est itaque esse porro voluptatum doloribus perferendis sed, molestiae odit hic necessitatibus quis soluta amet asperiores nobis qui distinctio. Labore corrupti necessitatibus earum animi. Corrupti beatae vel qui inventore accusamus id voluptates voluptas quasi quam commodi rem, repellendus, aspernatur, quae ut quod explicabo.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section><br><br>
+
+        <!--LAYANAN BANTUAN-->
+        <section id="bantuan" class="bantuan">
+            <div class="container">
+                <div class="row">
+                    <div class=" card col m12 s12" style="border-radius: 20px;">
+                        <div class=" col m6 s12">
+                            <div>
+                                <span><h4 class="grey-text text-darken-3">Layanan Bantuan</h4></span>
+                                <p class="grey-text text-darken-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur accusantium, libero vitae qui distinctio tenetur. Facere dolore delectus nisi.</p>
+                            </div>
+                        </div>
+                        <div class="col m6 s12 center">
+                            <div>
+                                <a target="_blank" href="https://wa.me/6281330578052?text=Halo+Layanan+Indihome!" class="tombolcallCenter waves-effect center waves-light btn" style="margin-top: 60px; margin-bottom: 40px; width: auto; width: 70%;">Call Center!</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sosmed" class="sosmed">
+            <div class="container">
+                <div class="row">
+                    <div class="col m12 s12">
+                        <span>
+                            <ul>
+                                <li>
+                                    <a target="_blank" href="https://www.facebook.com/putri.indihome.357319"><i class="icon-sosmed"><img src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Facebook" width="30"></i></a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.instagram.com/flsly._?igsh=eXlmZTd4MHE5MnVu"><i class="icon-sosmed"><img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram" width="30"></i></a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://wa.me/6281330578052?text=Halo+Layanan+Indihome!"><i class="icon-sosmed"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Whatsapp" width="30"></i></a>
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer class="center">
+            <p class="flow-text" style="font-size: 15px;">Copyright 2025 &copy; Indihome</p>
+        </footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+            
+    <script src="js/odp.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
